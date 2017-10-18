@@ -1,16 +1,16 @@
 <?php
 
-namespace PP\Component\Events;
+namespace Printplanet\Component\Events;
 
 use Exception;
-use PP\Component\Queue\ShouldQueue;
-use PP\Component\Queue\Type\QueueInterface;
-use PP\Component\Container\Container;
-use PP\Component\Contracts\Broadcasting\ShouldBroadcast;
 use ReflectionClass;
-use PP\Utils\Arr;
-use PP\Component\Utils\Str;
-use PP\Component\Contracts\Broadcasting\Factory as BroadcastFactory;
+use Printplanet\Component\Queue\ShouldQueue;
+use Printplanet\Component\Queue\Type\QueueInterface;
+use Printplanet\Component\Container\Container;
+use Printplanet\Component\Contracts\Broadcasting\ShouldBroadcast;
+use Printplanet\Component\Utils\Arr;
+use Printplanet\Component\Utils\Str;
+use Printplanet\Component\Contracts\Broadcasting\Factory as BroadcastFactory;
 
 class Dispatcher
 {

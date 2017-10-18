@@ -1,11 +1,11 @@
 <?php
 
-namespace PP\Component\Events;
+namespace Printplanet\Component\Events;
 
-use PP\Component\Queue\Job\JobsInterface;
-use PP\Component\Container\Container;
-use PP\Component\Queue\Job\InteractsWithQueueJob;
-use PP\Component\Queue\ShouldQueue;
+use Printplanet\Component\Container\Container;
+use Printplanet\Component\Queue\Job\JobsInterface;
+use Printplanet\Component\Queue\Job\InteractsWithQueueJob;
+use Printplanet\Component\Queue\ShouldQueue;
 
 class CallQueuedListener extends InteractsWithQueueJob
 {
