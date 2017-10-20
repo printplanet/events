@@ -8,8 +8,8 @@ use Printplanet\Component\Queue\ShouldQueue;
 use Printplanet\Component\Queue\Type\QueueInterface;
 use Printplanet\Component\Container\Container;
 use Printplanet\Component\Contracts\Broadcasting\ShouldBroadcast;
-use Printplanet\Component\Utils\Arr;
-use Printplanet\Component\Utils\Str;
+use Printplanet\Component\Support\Arr;
+use Printplanet\Component\Support\Str;
 use Printplanet\Component\Contracts\Broadcasting\Factory as BroadcastFactory;
 
 class Dispatcher
